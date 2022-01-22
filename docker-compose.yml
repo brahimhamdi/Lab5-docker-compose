@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+   app:
+     image: wiki_app:1.0
+     build: ./wiki_app
+               
+   db:
+     image: wiki_db:1.0
+     build: ./wiki_db
